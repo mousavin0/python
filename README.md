@@ -14,6 +14,19 @@ A word cloud is made for each of the cateogires.
 ![alt text](https://github.com/mousavin0/python/blob/main/British%20Airways/bild.png)
 
 
-Finally a neural network (RNN based) is used to predict the sentiment. It works with 100% test accuracy.
+A neural network (RNN based) is used to predict the sentiment. It works with 100% test accuracy.
+
+Moreover, using a customer booking dataset, we have made a predictive model for whether customers complete their purchase. First we looked at the relative frequency of completed purchases.
 
 
+![alt text](https://github.com/mousavin0/python/blob/main/British%20Airways/piechart.jpg)
+
+Based on above, there is little balance among groups. Therefore, a classifier that always predict 'not completed' would have accuracy of 85 percent. We therefore chosed to resample from the 'not completed' group by replacement to make a new dataset where both group have the same size and then fitted a random forest classifier. The resulting model fit has 96 percent accuracy on a test data. See the confusion matrix below.
+
+
+![alt text](https://github.com/mousavin0/python/blob/main/British%20Airways/confusion_matrix.jpg)
+
+Moreover, a feature importance plot of the model look as below:
+
+
+![alt text](https://github.com/mousavin0/python/blob/main/British%20Airways/feature_importance.jpg)
