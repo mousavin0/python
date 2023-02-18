@@ -12,8 +12,7 @@ The ranks are used to construct a 'positive' or 'negative' sentiment label for t
 A word cloud is made for each of the cateogires.
 
 <p align="center">
- <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/bild.png'>
-<\p>
+ <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/bild.png' width="500">
 
 
 A neural network (RNN based) is used to predict the sentiment from the short headers of the reviews. It works with 100% test accuracy.
@@ -22,17 +21,17 @@ Moreover, using a customer booking dataset, we have made a predictive model for 
 
 
 <p align="center">
- <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/piechart.jpg'>
-<\p>
+ <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/piechart.jpg' width="200">
+
 
 Based on above, there is little balance among groups. Therefore, a classifier that always predict 'not completed' would have accuracy of 85 percent. We therefore chose to resample from the 'not completed' group by replacement to make a new dataset where both group have the same size and then fitted a random forest classifier. The resulting model fit has 96 percent accuracy on a test data. See the confusion matrix below.
 
 <p align="center">
- <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/confusion_matrix.jpg'>
-<\p>
+ <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/confusion_matrix.jpg' width="350">
+
 
 Moreover, a feature importance plot of the model look as below:
 
 <p align="center">
- <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/feature_importance.jpg'>
-<\p>
+ <img src='https://github.com/mousavin0/python/blob/main/British%20Airways/feature_importance.jpg' width="550">
+
